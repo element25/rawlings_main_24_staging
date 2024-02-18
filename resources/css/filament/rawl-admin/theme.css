@@ -1,0 +1,10 @@
+@import '/vendor/filament/filament/resources/css/theme.css';
+
+@config 'tailwind.config.js';
+
+label > span:first-child {
+    font-weight: bold !important;
+    font-size: .925rem !important;
+    margin-left: 1px;
+    margin-bottom: 2px;
+}

@@ -1,0 +1,1 @@
+<a href="{{ $url }}" class="font-gilroy text-rawl-purple-dark tracking-tight lg:text-xs xl:text-sm hover:underline hover:text-rawl-purple decoration-dashed decoration-1 underline-offset-4">{{ $text }}</a>

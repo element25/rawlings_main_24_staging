@@ -1,0 +1,1 @@
+<div class="my-8 font-bold text-lg">{{ $slot }}</div>

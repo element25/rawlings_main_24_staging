@@ -1,0 +1,116 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Gilroy';
+    font-weight: 400;
+    src: url("/public/fonts/Gilroy-Regular.otf") format("opentype");
+}
+@font-face {
+    font-family: 'Gilroy';
+    font-weight: 600;
+    src: url("/public/fonts/Gilroy-Semibold.otf") format("opentype");
+}
+@font-face {
+    font-family: 'Gilroy';
+    font-weight: 700;
+    src: url("/public/fonts/Gilroy-Bold.otf") format("opentype");
+}
+
+.logo {
+    position: relative;
+    z-index: 2;
+    font-size: 1.5625rem;
+    width: 5em;
+    height: 1em;
+}
+
+@media screen(xl) {
+    /* @include bp(4) { */
+    .logo {
+        width: 7em;
+        height: 1.4em;
+    }
+}
+
+.logo .logo-text .path {
+    fill: theme(colors.rawl-purple.dark);
+
+}
+
+@media screen(xl) {
+    .logo .logo-text .path .hero-header & {
+    /* @include bp(4) { */
+    fill: theme(colors.rawl-white.DEFAULT);
+}
+}
+
+.logo path, rect {
+
+}
+
+.logo-icon .logo-icon-1, .scrolled .logo-icon .logo-icon-1 {
+    fill: theme(colors.rawl-green.DEFAULT);
+}
+
+.logo-icon .logo-icon-2, .scrolled .logo-icon .logo-icon-2 {
+    fill: theme(colors.rawl-yellow.DEFAULT);
+}
+
+.logo-icon .logo-icon-3, .logo-icon .logo-icon-4, .scrolled .logo-icon .logo-icon-3, .scrolled .logo-icon .logo-icon-4 {
+    fill: theme(colors.rawl-purple.DEFAULT);
+}
+
+.logo-icon .logo-icon-5, .scrolled .logo-icon .logo-icon-5 {
+    fill: theme(colors.rawl-blue.DEFAULT);
+}
+
+@media screen(xl) {
+    .logo-icon .hero-header path,
+    .logo-icon .hero-header rect {
+        /* @include bp(4) { */
+        fill: #fff;
+    }
+}
+
+.scrolled .logo .logo-text path {
+    fill: theme(colors.rawl-purple.dark);
+}
+
+@layer components {
+    .news_content {
+        @apply flex flex-col gap-4
+    }
+    .news_content p {
+        @apply text-zinc-600 font-open text-base leading-7 tracking-wide
+    }
+    .news_content h1, .news_content h2, .news_content h3, .news_content h4, .news_content h5, .news_content h6 {
+        @apply pt-3 text-zinc-800 font-extrabold text-3xl font-gilroy
+    }
+    .news_content h1, .news_content h2, .news_content h3, .news_content h4, .news_content h5, .news_content h6 {
+        @apply text-zinc-800 font-extrabold text-3xl font-gilroy
+    }
+    .news_content a {
+        @apply text-rawl-purple underline underline-offset-2
+    }
+    .news_content img {
+        @apply py-6 mx-auto
+    }
+}
+
+
+
+.animation-pulse {
+    animation: pulse 1s ;
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(69, 181, 207, 1);
+    }
+    70% {
+        box-shadow: 0 0 0 20px rgba(69, 181, 207, 0);
+    }
+}
+
