@@ -1,0 +1,29 @@
+{
+  "public/fonts/Gilroy-Bold.otf": {
+    "file": "assets/Gilroy-Bold-p_TpBPgQ.otf",
+    "src": "public/fonts/Gilroy-Bold.otf"
+  },
+  "public/fonts/Gilroy-Regular.otf": {
+    "file": "assets/Gilroy-Regular-NecbLr1u.otf",
+    "src": "public/fonts/Gilroy-Regular.otf"
+  },
+  "public/fonts/Gilroy-Semibold.otf": {
+    "file": "assets/Gilroy-Semibold-qQgAjI07.otf",
+    "src": "public/fonts/Gilroy-Semibold.otf"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-3FVFH0b1.css",
+    "isEntry": true,
+    "src": "resources/css/app.css"
+  },
+  "resources/css/filament/rawl-admin/theme.css": {
+    "file": "assets/theme-62nR-i2s.css",
+    "isEntry": true,
+    "src": "resources/css/filament/rawl-admin/theme.css"
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-p4n4M-rx.js",
+    "isEntry": true,
+    "src": "resources/js/app.js"
+  }
+}
